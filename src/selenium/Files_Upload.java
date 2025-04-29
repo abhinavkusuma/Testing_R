@@ -10,10 +10,10 @@ public class Files_Upload {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://omayo.blogspot.com/");
-//		driver.findElement(By.id("uploadfile")).sendKeys("C:\\Users\\91934\\OneDrive\\Pictures\\Saved Pictures\\img.jpg");
+		driver.findElement(By.id("uploadfile")).sendKeys("C:\\Users\\91934\\OneDrive\\Pictures\\Saved Pictures\\img.jpg");
 		
 		// With in the Package How to Upload File 
-		String projectPath = System.getProperty("user.dir");
-		driver.findElement(By.id("uploadfile")).sendKeys(projectPath+"\\Pics\\img.jpg");
+//		String projectPath = System.getProperty("user.dir");
+//		driver.findElement(By.id("uploadfile")).sendKeys(projectPath+"\\Pics\\img.jpg");
 	}
 }
