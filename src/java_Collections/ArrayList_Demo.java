@@ -10,7 +10,7 @@ public class ArrayList_Demo {
 		mylist.add(100);
 		mylist.add(10.5);
 		mylist.add("Welcome");
-		mylist.add('A');
+		mylist.add('A');  
 		mylist.add(true);
 		mylist.add(100);
 		mylist.add(null);
